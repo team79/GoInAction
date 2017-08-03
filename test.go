@@ -1,10 +1,10 @@
 package main
 
-import (
-	"fmt"
-)
+var a = "1321"
+var b = 123
+var c = true
 
 func main() {
-	fmt.Println("222")
-	fmt.Println("1231")
+	d, e, f := a, b, c
+	println(d, e, f)
 }
