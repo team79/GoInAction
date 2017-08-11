@@ -5,6 +5,7 @@ import (
 	"os"
 
 	_ "./search"
+	"./matchers"
 )
 
 //execute before main
@@ -13,5 +14,5 @@ func init() {
 }
 
 func main() {
-
+	search.Run("president")
 }
